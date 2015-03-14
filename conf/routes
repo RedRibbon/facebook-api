@@ -6,6 +6,8 @@ module:testrunner
 
 GET     /                                       App.Index
 
+GET     /v1/most-commented-feeds                ApiCtrl.MostCommentedFeeds
+
 # Ignore favicon requests
 GET     /favicon.ico                            404
 
@@ -14,3 +16,4 @@ GET     /public/*filepath                       Static.Serve("public")
 
 # Catch all
 *       /:controller/:action                    :controller.:action
+
