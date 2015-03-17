@@ -12,9 +12,7 @@ $ go get github.com/revel/cmd/revel
 facebok api 소스 clone
 
 ```
-$ go get github.com/RedRibbon/facebook-api
-$ cd $GOPATH
-$ cd src
+$ cd $GOPATH/src
 $ git clone https://github.com/RedRibbon/facebook-api.git
 $ revel run facebook-api
 ```
